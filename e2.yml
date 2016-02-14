@@ -1,0 +1,5 @@
+- hosts: localhost
+  tasks:
+     - name: artifactory
+       get_url: url=http://52.29.2.71:8081/artifactory/libs-snapshot-local/org/springframework/samples/spring-petclinic-idolehrer/1.0.0-SNAPSHOT/spring-petclinic-idolehrer-1.0.0-20160214.123211-1.war dest=~/images/newdoc.war
+
